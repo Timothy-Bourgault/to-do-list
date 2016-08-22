@@ -37,3 +37,7 @@ h2 {
 label {
   font-family: 'Nova Mono', monospace;
 }
+
+.done {
+  text-decoration: line-through;
+}

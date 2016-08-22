@@ -25,12 +25,17 @@ $(document).ready(function() {
     $(".list-details").text(newData.listDetails);
   });
 
-  $("button").click(function(){
-    $("li").remove();
-    $("p").remove();
-    $("h2").remove();
-    $("button").remove();
-});
+  $("button#taskRemove").click(function(){
+
+  $("button#taskRemove").remove();
+    $("ul#tasks").children("li").last().addClass("done");
+  });
+
+  $("button#taskUncheck").click(function(){
+
+  $("button#taskUncheck").remove();
+    $("ul#tasks").children("li").last().removeClass("done");
+  });
 
   $("input#new-list-item").val("");
   $("input#new-list-detail").val("");
