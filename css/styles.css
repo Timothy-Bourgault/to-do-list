@@ -10,3 +10,30 @@
 .task:hover {
   text-decoration: underline;
 }
+
+img {
+  border-bottom: solid black 5px;
+}
+
+body {
+  background-color: #b3ffcc;
+}
+
+.jumbotron {
+  background-color: #80ffaa;
+  border: solid white 5px;
+  text-align: center;
+  font-family: 'Nova Mono', monospace;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Nova Mono', monospace;
+}
+
+label {
+  font-family: 'Nova Mono', monospace;
+}
