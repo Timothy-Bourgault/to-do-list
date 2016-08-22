@@ -41,3 +41,27 @@ label {
 .done {
   text-decoration: line-through;
 }
+
+#show-tasks {
+  background-color: white;
+}
+
+#show-tasks h2 {
+  background-color: #80ffaa;
+}
+
+.list-item {
+  font-weight: bold;
+}
+
+.list-details {
+  font-style: italic;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+#left{
+  border-right: solid white 10px;
+}
